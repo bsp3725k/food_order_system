@@ -1,0 +1,132 @@
+*{
+    background-color: black;
+    color: white;
+}
+.nav_bar{
+    position: sticky;
+    top: 0%;
+    width: 401px;
+    height: 1117px;
+}
+.whole{
+    display: flex;
+}
+.nav_bar>img{
+    width: 310px;
+    height: 298px;
+}
+hr{
+    color: #1C2025;
+    background-color: #1C2025;
+    width: 280px;
+    margin: 0px;
+}
+.rest_title{
+    font-size: larger;
+    margin-left: 40px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.slogan{
+    color: red;
+    margin-left: 70px;
+}
+.heads{
+    font-size: x-large;
+    margin-bottom: 2px;
+    margin-left: 15px;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin-top: 0px;
+    margin-left: 30px;
+    font-size: large;
+}
+.alii_links{
+    margin-left: 20px;
+}
+
+.inputs{
+    position: sticky;
+    top: 0%;
+}
+
+.Search{
+    width: 770px;
+    height: 46px;
+}
+
+.btn{
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    width: 160px;
+    height: 46px;
+}
+
+.logo1{
+    width: 58px;
+    height: 58px;
+
+}
+
+.mi{
+    width: 1150px;
+    height: 463px;
+}
+.order_bar{
+    margin: 0px;
+    padding: 0px;
+}
+.mm{
+    font-size: x-large;
+    font-weight: bold;
+}
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 16px;
+  }
+
+  .card {
+    width: 225px;
+    height: 200px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .card img {
+    width: 205px;
+    height: 115px;
+    margin: 10px;
+    object-fit: cover;
+    border-bottom: 1px solid #ccc;
+  }
+
+  .card-body {
+    padding: 16px;
+  }
+
+  .card-body h4 {
+    margin: 2px 0;
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .card-body p {
+    font-size: 16px;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+  }
